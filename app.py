@@ -1,5 +1,5 @@
 import streamlit as st
-import paho.mqtt.publish as publish
+import paho.mqtt.client as paho
 
 # Título de la aplicación
 st.title("Control de Temperatura")
